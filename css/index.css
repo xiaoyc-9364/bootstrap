@@ -124,7 +124,7 @@ img {
 		margin-bottom: 10px;
 	}
 }
-
+/*主题样式*/
 .article {
 	width: 100%;
 	background: #F2F2F2;
@@ -178,9 +178,6 @@ img {
 	background-position: 0 -60px;
 }
 @media screen and (min-width: 1200px){
-	.article {
-		height: 347px;
-	}
 	.article_main {
 		max-width: 1200px;
 		padding: 0 15px;
@@ -192,8 +189,6 @@ img {
 	}
 	.article_main .col {
 		width: 390px;
-	}
-	.article_main .col p {
 	}
 }
 
@@ -238,9 +233,9 @@ img {
 		justify-content: space-between;
 	}
 }
+/*自我评价*/
 .estimate {
 	background: #F2F2F2;
-
 }
 
 .estimate div {
@@ -254,10 +249,9 @@ img {
 	text-align: center;
 	line-height: 28px;
 	margin-bottom: 25px;
-	/*margin: 0 0 10px;*/
 	color: #555;
 }
-
+/*我们的客户*/
 .clients {
 	background: #EBEBEB;
 }
@@ -274,7 +268,7 @@ img {
 		justify-content: space-between;
 	}
 }
-
+/*关于我们*/
 .about_our {
 	background: #FF7878;
 	color: #FFF;
@@ -295,7 +289,7 @@ img {
 		width: 980px;
 	}
 }
-
+/*页脚*/
 .footer {
 	width: 100%;
 	height: 130px;
@@ -307,7 +301,6 @@ img {
 .footer div {
 	width: 160px;
 	height: 28px;
-	/*background: red;*/
 	display: flex;
 	justify-content: space-between;
 }
